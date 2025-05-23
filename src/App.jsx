@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
 
@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-     <p className='text-7xl'>Hi this is sultan</p>
+     <p className='text-7xl'>Hi this is mahek </p>
      <Hero />
     </>
-  )
-}
+  );
+};
 
 export default App
