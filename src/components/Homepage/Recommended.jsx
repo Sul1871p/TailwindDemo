@@ -1,35 +1,48 @@
 import React from "react";
+import dish1 from "../../assets/Images/dish1.jpg";
+import dish2 from "../../assets/Images/dish2.jpg";
+import dish3 from "../../assets/Images/dish3.jpg";
+import dish4 from "../../assets/Images/dish4.jpg";
+import dish5 from "../../assets/Images/dish5.jpg";
+import dish6 from "../../assets/Images/dish6.jpg";
+
 
 const dishes = [
   {
     title: "Truffle Pasta",
-    image: "/images/dish1.jpg",
+    image: dish1,
     description:
       "Rich, creamy pasta infused with truffle essence and topped with shaved parmesan.",
   },
   {
     title: "Fire-Grilled Salmon",
-    image: "/images/dish2.jpg",
+    image: dish2,
     description:
       "Perfectly grilled salmon with a citrus glaze, served with seasonal vegetables.",
   },
   {
     title: "Signature Steak",
-    image: "/images/dish3.jpg",
+    image: dish3,
     description:
       "Juicy and tender steak grilled to perfection with house-made chimichurri sauce.",
   },
    {
     title: "Butter Chicken",
-    image: "/images/dish4.jpg",
+    image: dish4,
     description:
-      "Rich, creamy pasta infused with truffle essence and topped with shaved parmesan.",
+      "Succulent chicken pieces simmered in a buttery, spiced tomato-based gravy.",
   },
    {
     title: "Paneer Butter Masala",
-    image: "/images/dish5.jpg",
+    image: dish5,
     description:
-      "Rich, creamy pasta infused with truffle essence and topped with shaved parmesan.",
+      "Soft paneer cubes cooked in a rich, creamy, and mildly spiced tomato gravy.",
+   },  
+  {
+    title: "Biryani",
+    image: dish6,
+    description:
+      "Fragrant basmati rice layered with spiced vegetables or meat, cooked to perfection with herbs and saffron.",
   },
 ];
 

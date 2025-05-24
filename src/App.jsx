@@ -1,23 +1,21 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-import Hero from './components/Homepage/Hero'
-import Homepage from './pages/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Home';
+import AboutPage from  './pages/About/AboutPage';
+import MenuPage from './pages/Menu/MenuPage';
+import ContactPage from './pages/Contact/ContactPage';
 
 function App() {
-
   return (
-    <>
-<<<<<<< HEAD
-     <p className='text-7xl'>Hi this is mahek </p>
-     <Hero />
-=======
-     <Homepage />
-     
->>>>>>> origin/main
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
-export default App
+export default App;

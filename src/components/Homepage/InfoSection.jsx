@@ -1,4 +1,5 @@
 import React from 'react';
+import infoImage from "../../assets/Images/info.jpg";
 
 const InfoSection = () => {
   return (
@@ -8,7 +9,7 @@ const InfoSection = () => {
         {/* Left Image */}
         <div className="w-full md:w-1/2">
           <img 
-            src="/images/info.jpg" 
+            src={infoImage}
             alt="Chef cooking" 
             className="rounded-2xl shadow-lg object-cover w-full h-[300px] md:h-[400px]" 
           />

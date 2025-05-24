@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "../../components/Homepage/Navbar";
 import Hero from "../../components/Homepage/Hero";
 import InfoSection from "../../components/Homepage/InfoSection";
@@ -18,6 +19,7 @@ const Homepage = () => {
       <LocationContact />
       <Footer />
     </>
+    
   );
 };
 
