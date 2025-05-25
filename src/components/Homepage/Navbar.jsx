@@ -64,9 +64,9 @@ const Navbar = () => {
             <div className="flex flex-col space-y-6 mt-8">
               <Link to="/" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>Home</Link>
               <Link to="/menu" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>Menu</Link>
-              <a href="#about" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>About</a>
-              <a href="#contact" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>Contact</a>
-              <a href="#reserve" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition text-center mt-4" onClick={toggleSidebar}>Reserve Now</a>
+              <Link to="/about" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>About</Link>
+              <Link to="/contact" className="text-gray-700 text-xl hover:text-red-600 transition" onClick={toggleSidebar}>Contact</Link>
+              <Link to="/reserve" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition text-center mt-4" onClick={toggleSidebar}>Reserve Now</Link>
             </div>
           </div>
         </div>
