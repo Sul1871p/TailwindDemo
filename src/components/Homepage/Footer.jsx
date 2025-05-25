@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -17,10 +18,10 @@ const Footer = () => {
         {/* Navigation Links */}
         <div className="flex flex-col gap-2">
           <h4 className="text-white font-semibold mb-2">Quick Links</h4>
-          <a href="#home" className="hover:text-red-500 transition">Home</a>
-          <a href="#menu" className="hover:text-red-500 transition">Menu</a>
-          <a href="#about" className="hover:text-red-500 transition">About</a>
-          <a href="#contact" className="hover:text-red-500 transition">Contact</a>
+          <Link to="/" className="hover:text-red-500 transition">Home</Link>
+          <Link to="/menu" className="hover:text-red-500 transition">Menu</Link>
+          <Link to="/about" className="hover:text-red-500 transition">About</Link>
+          <Link to="/contact" className="hover:text-red-500 transition">Contact</Link>
         </div>
 
         {/* Socials */}
